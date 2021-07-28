@@ -1,0 +1,12 @@
+
+.T_and_C{
+    padding-left:10%;
+    padding-right:10% ;
+    padding-top: 3%;
+    height: 600px;
+    background: rgb(252, 243, 229);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.T_and_C h2{
+    padding-bottom:20px;
+}

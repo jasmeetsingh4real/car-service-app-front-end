@@ -1,0 +1,88 @@
+    *{margin: 0;padding: 0;}
+   .page_background{
+       position: absolute;
+       background-image: url(page_bg_blur03.jpg);
+       background-size: 100% 100%;
+       height: 100%;
+       width: 100%;
+       margin-top: 0;
+   }
+   
+    .carpic {
+
+        height: 500px;
+        width: 400px;   
+        overflow: hidden;
+        background-image: url(car.jpg);
+        background-size: 100% 100%;
+        background-size: 210%;
+        float: right;
+        margin-right: 21%;
+        margin-top:80px ;
+    }
+
+    .loginform{
+        background-color: rgba(0, 0, 0, 0.377);
+        height: 500px;
+        width: 400px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-top:80px ;
+        margin-left: 26.5%;
+        padding-top: 5%;
+    }
+
+    .loginform input{
+        text-decoration: none;
+        border: none;
+        height: 30px;
+        margin: 5px;
+        width: 200px;
+        padding: 3px;
+        outline: none;
+
+}
+    .loginform button{
+        width: 200px;
+        height: 30px;
+        background-color: tomato;
+        border: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        margin-top: 5px;
+    }
+    .loginform button:hover{
+        background-color: rgb(255, 123, 100);
+    }
+    .loginform h2{
+        font-weight: 300;
+    }
+    .loginform h3{
+        font-weight: 500;
+   
+    }
+    .loginform textarea{
+        margin: 5px;
+        width: 200px;
+        outline: none;
+    }
+  .linktag{
+        text-decoration: none;
+        color: white;
+    }
+    .backbtn{
+        margin: 10px;
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        background-image: url(./Backbtn2.png);
+        top: 80px;
+        left:360px;
+        background-size: 100% 100%;
+    }
+    .backbtn:hover{
+        transform: scale(.9)
+    }
